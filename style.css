@@ -7,7 +7,6 @@
     height: 100vh;
     width: 100vw;
     background-color: #000;
-    position: ;
 }
 
 .navbar {
@@ -85,6 +84,9 @@ body {
     height: 50px;
     font-size: 3vh;
     margin-top: 15%;
+    animation-name: emerge;
+    animation-duration: 3s;
+    animation-direction: forwards;
   }
 
   figure {
@@ -92,16 +94,19 @@ body {
       line-height: 4rem;
       letter-spacing: 2px;
       color: #ededed;
+      animation-delay: 2s;
   }
   h2{
       color: white;
   }
- 
-  .next {
-      height: 100vh;
-      width: 100vw;
-      background-color: white;
-      z-index: 100;
-      position: absolute;
-      text-align: center;
+
+  @keyframes emerge {
+      0% {
+          transform: translateY(-20px);
+          opacity: 0;
+      }
+      100% {
+          transform: translateY(0px);
+          opacity: 1;
+      }
   }
