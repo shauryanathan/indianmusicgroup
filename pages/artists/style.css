@@ -10,15 +10,6 @@
   width: 100vw;
   background-color: #000;
 }
-.card-outer {
-  height: 40vh;
-  width: 40vh;
-  background-image: url(https://indianmusicgroup.com/images/artist/hari.png);
-  background-color: #fff;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 
 .navbar {
   position: fixed;
