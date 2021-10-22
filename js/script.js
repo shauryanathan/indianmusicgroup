@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
@@ -23,6 +22,8 @@ var animate = setInterval(() => {
 document.querySelector('body').addEventListener('click', () => {
   clearInterval(animate);
 })
+
+
 
 // HAMBURGER NAV
 $(document).ready(function(){
@@ -51,6 +52,3 @@ $(document).ready(function(){
 $(document).ready(function(){
     setTimeout(() => {$('.toggle').css('opacity', '1')},1000)
 })
-
-
-
