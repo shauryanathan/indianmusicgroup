@@ -16,19 +16,65 @@
   padding-top: 10%;
 }
 .cards {
+  padding-top: 5%;
+  padding-bottom: 5%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5%;
-  padding-bottom: 10%;
+
+}
+.perks {
+  color: white;
+  text-align: center;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.perk-1 {
+   padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 1rem;
+}
+
+.heading-one {
+  font-size: 2.75vh;
+}
+.about-one {
+  font-size: 2vh;
+}
+.heading-two {
+  margin-top: 10%;
+  font-size: 2.75vh;
+}
+.about-two {
+  font-size: 2vh;
+}
+.heading-three {
+  margin-top: 10%;
+  font-size: 2.75vh;
+}
+.about-three {
+  font-size: 2vh;
+}
+.heading-four {
+  margin-top: 10%;
+  font-size: 2.75vh;
+}
+.about-four {
+  font-size: 2vh;
 }
 .card {
-  width: 22vw;
-  background-color: red;
-  height: 40vh;
+  padding: 0;
+  margin: 0;
+  background-color: #380821;
   display: inline-block;
-  border-radius: 1.5%;
-  margin-left: 2.2vw;
+  border-radius: 2rem;
+  margin-left: 12%;
+  padding:1%;
+  color: white;
+  font-size: 3vh;
+  width: 15vw;
+  height: 15vw;
 }
 .content {
   width: 40vw;
