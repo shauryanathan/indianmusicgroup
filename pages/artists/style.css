@@ -2,14 +2,13 @@
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
- 
-}
-body{
   background-color: black;
 }
+
 .main {
   height: 100vh;
   width: 100vw;
+  background-color: #000;
 }
 
 .navbar {
@@ -166,24 +165,6 @@ h2{
   margin: 8% 5%;
 }
 
-.poem {
-  color: white;
-  padding-top: 10%;
-  text-align: center;
-  margin-top: 5%;
-  font-size: 2vh;
-  
-}
-.desc {
-  color: white;
-  padding-top: 10%;
-  width: 70vw;
-  font-size: 1.8vh;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 /* CSS FOR MOBILE ONLY */
 @media (max-width: 500px) {
@@ -332,15 +313,6 @@ h2{
     body .dribbble img {
       display: block;
       width: 76px;
-    }
-    .poem {
-      width: 90vw;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .desc {
-      font-size: 2.4vh;
-      width: 90vw;
     }
 }
 

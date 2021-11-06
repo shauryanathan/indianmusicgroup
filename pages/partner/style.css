@@ -2,13 +2,9 @@
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: black;
 }
-
-.main {
-  height: 100vh;
-  width: 100vw;
-  background-color: #000;
+body{
+  background-color: black;
 }
 
 .navbar {
@@ -51,7 +47,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+  background: url(./img.jpg) no-repeat center center/cover;
 }
 
 video {
@@ -74,6 +70,7 @@ video {
 h1 {
   text-align: center;
   color: #fff;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -83,8 +80,8 @@ h1 {
   max-width: 900px;
   width: 100%;
   height: 50px;
-  font-size: 5.5vh;
-  padding-top: 15%;
+  font-size: 5vh;
+  margin-top: 18%;
   animation-name: emerge;
   animation-duration: 3s;
   animation-direction: forwards;
@@ -101,7 +98,26 @@ figure {
 h2{
     color: white;
 }
+.para-one {
+  color: white;
+  width: 60vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.img-one {
+  
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 
+}
+
+.img-one img {
+  width: 50vw;
+}
 @keyframes emerge {
     0% {
         transform: translateY(-20px);
@@ -143,6 +159,8 @@ h2{
   opacity: 0;
   transition: ease-in-out, 0.2s;
   margin-top: 10%;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   text-align: center;
 }
@@ -163,30 +181,21 @@ h2{
 }
 
 
-.para-one {
-  color: white;
-  width: 60vw;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-.img-one {
-  
-  border-radius: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.img-one img {
-  width: 50vw;
-}
-
 /* CSS FOR MOBILE ONLY */
 @media (max-width: 500px) {
 
+ 
+  .para-one {
+    padding-top: 20%;
+    width: 90vw;
+    font-size: 2.2vh;
+  }
+  .one{
+    padding-top: 40%;
+  }
+  .img-one img {
+    width: 80vw;
+  }
   /* CSS FOR HAMBURGER */
   .navbar{
       visibility: hidden;
@@ -332,14 +341,6 @@ h2{
       display: block;
       width: 76px;
     }
-    .para-one {
-      padding-top: 20%;
-      width: 90vw;
-      font-size: 2.2vh;
-    }
-    .img-one img {
-      width: 80vw;
-    }
 }
 
 /* CSS FOR EXCEPT MOBILE */
@@ -358,5 +359,4 @@ h2{
       visibility: hidden;
       position: absolute;
     }
-    
 }
