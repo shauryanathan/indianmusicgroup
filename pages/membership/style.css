@@ -221,6 +221,9 @@ h2{
 
 /* CSS FOR MOBILE ONLY */
 @media (max-width: 500px) {
+  
+
+  
   .head {
     padding-top: 20%;
   }
@@ -229,11 +232,12 @@ h2{
   }
   .card {
     display: block;
-    width: 90vw;
-    height: 50vh;
+    width: 70vw;
+    height: 30vh;
     margin-bottom: 2vh;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    padding: 5%;
   }
   /* CSS FOR HAMBURGER */
   .navbar{
