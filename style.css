@@ -141,6 +141,8 @@ body {
   .collapse ul {
     transform: translateY(-20px);
     opacity: 0;
+    display: flex;
+  flex-direction: column;
     transition: ease-in-out, 0.2s;
     margin-top: 10%;
     width: 100vw;
